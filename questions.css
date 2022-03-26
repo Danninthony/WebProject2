@@ -1,0 +1,121 @@
+
+.logo{
+      padding-top: 20px;
+	 text-align: center;
+
+	 	margin:0 auto;
+	width:1080px;
+	float: center;
+	position:relative;
+	font-size: 22px;
+  font-family: 'Bangers', cursive;
+
+  
+  color: #00008B;
+  text-shadow:
+      0 0 7px #FFFFFF,
+      0 0 10px 	#FFFFFF,
+      0 0 21px #FFFFFF,
+      0 0 42px #FFFFFF,
+      0 0 82px #FFFFFF,
+      0 0 92px 	#FFFFFF,
+      0 0 102px #FFFFFF,
+      0 0 151px #FFFFFF;
+
+}
+body {
+	position: center;
+  background-color: #05386B;
+  color: #EDF5E1;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.needHelp{
+	margin:auto;
+}
+div.container{
+	padding-top:20px;
+	width: 100%;
+	float:center;
+}
+
+#page-wrap { 	
+	width: 50%; 
+	height: 200px; 
+	float: left;
+	background-color: #EDF5E1;
+	color: black;
+	width: 350px;
+	}
+
+h1  { margin: 25px 0;  text-transform: uppercase; letter-spacing: 3px; }
+
+#quiz input {
+    horizontal-align: middle;
+}
+
+div.moneyCount{
+	margin-left: 50%; 
+	height: 300px;
+	background-color: #379683;
+	color:  #05386B;
+	width: 350px;
+	float:center;
+
+}
+
+
+#quiz h3 {
+   font-size: 17px; margin: 0 0 1px 0; color: #666;
+}
+
+#results {
+    font: 44px Georgia, Serif;
+}
+
+.call{
+  padding: 5px;
+  margin: auto;
+  
+   color: white;
+  height: 15 px;
+  width: 430px;
+}
+.half {
+  padding: 5px;
+  margin: auto;
+  
+   color: white;
+  height: 15 px;
+  width: 120px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.highlight{
+	 background-color:#EDF5E1;`
+	
+}
+li{
+	width:60px;
+}
+h2{
+	text-align:center;
+    
+}
