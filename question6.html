@@ -1,0 +1,117 @@
+<head>
+<title> Who wants to be slighty richer ?</title>
+
+<!-- css stylesheet -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<header>
+
+<!-- title  -->
+<main class="logo">
+  <h1>Who wants to be slighty richer?</h1>
+
+	
+</main>
+</header>
+ 
+ 	<!-- o side by side question and money board -->
+<div class="container">
+     	<!-- Money Board-->
+	<div  class="moneyCount">
+	  <h2> Money Count</h2>
+            <ol type="1">
+			  <li >10,000</li>
+			  <li>20,000</li>
+			  <li>30,000</li>
+			   <li>40,000</li>
+			  <li>50,000</li>
+			  <li class="highlight">60,000</li>
+			   <li>70,000</li>
+			  <li>80,000</li>
+			  <li>90,000</li>
+			   <li>100,000</li>
+			</ol>  
+        </div>
+	 <!-- Question container-->
+	<div class="page-wrap">
+           
+		<!-- Question 1-->
+		<form action="result.php" method="post" id="quiz">
+	
+                 <!--Answer: D. 7-->
+                    <h3>In total, how many novels were written by the Bronte sisters?</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) 4 </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) 5</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) 6</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) 7</label>
+                    </div>
+                
+     
+               <!-- incorrect button -->
+            <button type="button" onclick= "location.href='incorrect.html'">incorrect</button> <br>
+			
+			
+		      <!-- correct button -->
+		     <button type="button" onclick= "location.href='correct.html'">correct</button> 
+		</form>
+	   
+	</div>
+	
+	 
+   </div>
+
+<body>
+
+ 
+   
+   <!-- need help prompt -->
+     <div class= "needHlep">
+       <h2> Need Help?</h2>
+ 
+      <!-- Ask a friend-->
+            <div class="call">
+				 
+				  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+				  <form action="http://www.google.com/search">
+				  <div>
+					Call A Friend
+					<input name="q" value="Ask Question" />
+					<input type="submit" value="Search Google" />
+				  </div>
+				</form>
+				</div>
+						   <br>
+						   
+						   	<!-- Searches google-->
+						   
+				 <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+				  <form action="http://www.google.com/search">
+				  <div class="half">
+				  
+				      	<!-- 50/50-->
+					   <button type="button"  onclick= "location.href='correct.html'">50/50</button>
+				  </div>
+				</form>
+		   <br>
+
+</div>
+</body>
+
+</html>
