@@ -2,7 +2,7 @@
 <title> Who wants to be slighty richer ?</title>
 
 <!-- css stylesheet -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="questions.css">
 
 </head>
 
@@ -26,39 +26,33 @@
 	 <!-- Question container-->
 	<div id="page-wrap">
 
+		<h3>Which greek god/goddess drinks the most?</h3>
 		<!-- Question 1-->
-		<form action="result.php" method="post" id="quiz">
-	
-                
-                    <h3>WordPress is a...</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Software </label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Web App</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) CMS</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) Other</label>
-                    </div>
+		<form action="questionprocessing.php" method="post" id= "quiz">
+		  <!-- <fieldset> -->
+			<legend>Answers:</legend>
+				<table>
+				<tr>
+				<td class = "two"><input type="radio" name="question1" value="Wrong"/> Hera</td>
+				<td class = "two"><input type="radio" name="question1" value="Wrong"/> Zeus </td>
+				</tr>
+				<tr>
+				<td class = "two"><input type="radio" name="question1" value= "Wrong"/> Hercules </td>
+				<td class = "two"><input type="radio" name="question1" value="Correct"/> Dionysus </td>
+				</tr>
+				</table>
+				<br>
+				<input type="submit" name="submit" value="Submit"> 
+		 <!-- </fieldset> -->
+			
                 
      
-               <!-- incorrect button -->
+               <!-- incorrect button 
             <button type="button" onclick= "location.href='incorrect.html'">incorrect</button> <br>
 			
 			
-		      <!-- correct button -->
-		     <button type="button" onclick= "location.href='correct.html'">correct</button> 
+		      <!-- correct button 
+		     <button type="button" onclick= "location.href='correct.html'">correct</button> -->
 		</form>
 	   
 	</div>
@@ -82,7 +76,7 @@
    </div>
    
    <!-- need help prompt -->
-     <div class= "needHlep">
+     <div class= "needHelp">
        <h2> Need Help?</h2>
  
       <!-- Ask a friend-->
