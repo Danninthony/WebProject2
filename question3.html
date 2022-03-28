@@ -2,7 +2,7 @@
 <title> Who wants to be slighty richer ?</title>
 
 <!-- css stylesheet -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="questions.css">
 
 </head>
 
@@ -35,41 +35,35 @@
 			</ol>  
         </div>
 	 <!-- Question container-->
-	<div class="page-wrap">
-           
+	 <div class="page-wrap">
+
+		<h3>Which of the following disorders is the fear of being alone?</h3>
 		<!-- Question 1-->
-		<form action="result.php" method="post" id="quiz">
-	
-                <!--Answer: A. Agoraphobia-->
-                    <h3>Which of the following disorders is the fear of being alone?</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Agoraphobia </label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Aerophobia</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Acrophobia</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) Arachnophobia</label>
-                    </div>
+		<form action="questionprocessing.php" method="post" id= "quiz">
+		  <!-- <fieldset> -->
+			<legend>Answers:</legend>
+				<table>
+				<tr>
+				<td class = "two"><input type="radio" name="question3" value="Wrong"/> Agoraphobia</td>
+				<td class = "two"><input type="radio" name="question3" value="Correct"/> Autophobia </td>
+				</tr>
+				<tr>
+				<td class = "two"><input type="radio" name="question3" value= "Wrong"/> Acrophobia </td>
+				<td class = "two"><input type="radio" name="question3" value="Wrong"/> Arachnophobia </td>
+				</tr>
+				</table>
+				<br>
+				<input type="submit" name="submit" value="Submit"> 
+		 <!-- </fieldset> -->
+			
                 
      
-               <!-- incorrect button -->
+               <!-- incorrect button 
             <button type="button" onclick= "location.href='incorrect.html'">incorrect</button> <br>
 			
 			
-		      <!-- correct button -->
-		     <button type="button" onclick= "location.href='correct.html'">correct</button> 
+		     correct button 
+		     <button type="button" onclick= "location.href='correct.html'">correct</button> -->
 		</form>
 	   
 	</div>
@@ -82,7 +76,7 @@
  
    
    <!-- need help prompt -->
-     <div class= "needHlep">
+     <div class= "needHelp">
        <h2> Need Help?</h2>
  
       <!-- Ask a friend-->

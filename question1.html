@@ -1,111 +1,111 @@
 <head>
-<title> Who wants to be slighty richer ?</title>
-
-<!-- css stylesheet -->
-<link rel="stylesheet" href="questions.css">
-
-</head>
-
-<header>
-
-<!-- title  -->
-<main class="logo">
-  <h1>Who wants to be slighty richer?</h1>
-
+	<title> Who wants to be slighty richer ?</title>
 	
-</main>
-</header>
-
-
-<body>
-
-  
- 	<!-- o side by side question and money board -->
-<div class="container">
-     
-	 <!-- Question container-->
-	<div id="page-wrap">
-
-		<h3>Which greek god/goddess drinks the most?</h3>
-		<!-- Question 1-->
-		<form action="questionprocessing.php" method="post" id= "quiz">
-		  <!-- <fieldset> -->
-			<legend>Answers:</legend>
-				<table>
-				<tr>
-				<td class = "two"><input type="radio" name="question1" value="Wrong"/> Hera</td>
-				<td class = "two"><input type="radio" name="question1" value="Wrong"/> Zeus </td>
-				</tr>
-				<tr>
-				<td class = "two"><input type="radio" name="question1" value= "Wrong"/> Hercules </td>
-				<td class = "two"><input type="radio" name="question1" value="Correct"/> Dionysus </td>
-				</tr>
-				</table>
-				<br>
-				<input type="submit" name="submit" value="Submit"> 
-		 <!-- </fieldset> -->
-			
-                
-     
-               <!-- incorrect button 
-            <button type="button" onclick= "location.href='incorrect.html'">incorrect</button> <br>
-			
-			
-		      <!-- correct button 
-		     <button type="button" onclick= "location.href='correct.html'">correct</button> -->
-		</form>
+	<!-- css stylesheet -->
+	<link rel="stylesheet" href="questions.css">
+	
+	</head>
+	
+	<header>
+	
+	<!-- title  -->
+	<main class="logo">
+	  <h1>Who wants to be slighty richer?</h1>
+	
+		
+	</main>
+	</header>
+	 
+		 <!-- o side by side question and money board -->
+	<div class="container">
+			 <!-- Money Board-->
+		<div  class="moneyCount">
+		  <h2> Money Count</h2>
+				<ol type="1">
+					<li class="highlight">10,000</li>
+				  <li>20,000</li>
+				  <li>30,000</li>
+				   <li>40,000</li>
+				  <li>50,000</li>
+				  <li>60,000</li>
+				   <li>70,000</li>
+				  <li>80,000</li>
+				  <li>90,000</li>
+				   <li>100,000</li>
+				</ol>  
+			</div>
+		 <!-- Question container-->
+		 <div class="page-wrap">
+	
+			<h3>WordPress is a</h3>
+			<!-- Question 1-->
+			<form action="questionprocessing.php" method="post" id= "quiz">
+			  <!-- <fieldset> -->
+				<legend>Answers:</legend>
+					<table>
+					<tr>
+					<td class = "two"><input type="radio" name="question1" value="Correct"/> Software</td>
+					<td class = "two"><input type="radio" name="question1" value="Wrong"/> Web App </td>
+					</tr>
+					<tr>
+					<td class = "two"><input type="radio" name="question1" value= "Wrong"/> CMS </td>
+					<td class = "two"><input type="radio" name="question1" value="Wrong"/> Other </td>
+					</tr>
+					</table>
+					<br>
+					<input type="submit" name="submit" value="Submit"> 
+			 <!-- </fieldset> -->
+				
+					
+		 
+				   <!-- incorrect button 
+				<button type="button" onclick= "location.href='incorrect.html'">incorrect</button> <br>
+				
+				
+				 correct button 
+				 <button type="button" onclick= "location.href='correct.html'">correct</button> -->
+			</form>
+		   
+		</div>
+		
+		 
+	   </div>
+	
+	<body>
+	
+	 
 	   
-	</div>
+	   <!-- need help prompt -->
+		 <div class= "needHelp">
+		   <h2> Need Help?</h2>
+	 
+		  <!-- Ask a friend-->
+				<div class="call">
+					 
+					  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+					  <form action="http://www.google.com/search">
+					  <div>
+						Call A Friend
+						<input name="q" value="Ask Question" />
+						<input type="submit" value="Search Google" />
+					  </div>
+					</form>
+					</div>
+							   <br>
+							   
+								   <!-- Searches google-->
+							   
+					 <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+					  <form action="http://www.google.com/search">
+					  <div class="half">
+					  
+							  <!-- 50/50-->
+						   <button type="button"  onclick= "location.href='correct.html'">50/50</button>
+					  </div>
+					</form>
+			   <br>
 	
-	 	<!-- Money Board-->
-	<div  class="moneyCount">
-	  <h2> Money Count</h2>
-            <ol type="1">
-			  <li class="highlight">10,000</li>
-			  <li>20,000</li>
-			  <li>30,000</li>
-			   <li>40,000</li>
-			  <li>50,000</li>
-			  <li>60,000</li>
-			   <li>70,000</li>
-			  <li>80,000</li>
-			  <li>90,000</li>
-			   <li>100,000</li>
-			</ol>  
-        </div>
-   </div>
-   
-   <!-- need help prompt -->
-     <div class= "needHelp">
-       <h2> Need Help?</h2>
- 
-      <!-- Ask a friend-->
-            <div class="call">
-				 
-				  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-				  <form action="http://www.google.com/search">
-				  <div>
-					Call A Friend
-					<input name="q" value="Ask Question" />
-					<input type="submit" value="Search Google" />
-				  </div>
-				</form>
-				</div>
-						   <br>
-						   
-						   	<!-- Searches google-->
-						   
-				 <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-				  <form action="http://www.google.com/search">
-				  <div class="half">
-				  
-				      	<!-- 50/50-->
-					   <button type="button"  onclick= "location.href='correct.html'">50/50</button>
-				  </div>
-				</form>
-		   <br>
-
-</div>
-</body>
-
-</html>
+	</div>
+	</body>
+	
+	</html>

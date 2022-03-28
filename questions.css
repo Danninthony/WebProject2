@@ -9,7 +9,7 @@
 	position:relative;
 	font-size: 22px;
   font-family: 'Bangers', cursive;
-
+  border: 5px solid white;
   
   color: #00008B;
   text-shadow:
@@ -23,6 +23,7 @@
       0 0 151px #FFFFFF;
 
 }
+
 body {
 	position: center;
   background-color: #05386B;
@@ -37,34 +38,38 @@ body {
 	margin:auto;
 }
 
-container{
+.container{
 	
-	    padding: 5%;
+	  padding: 5%;
     text-align: center;
     width: 80%;
+    left: 50%;
+    border: 5px solid red;
 
 }
 
-div.page-wrap { 	
-   align-item: center;
+.page-wrap { 	
+  align-items: center;
 	background-color: #EDF5E1;
+  border: 5px solid purple;
 	color: black;
-	 display: inline-block;    
-     padding: 2%;  
+	display: inline-block;    
+    padding: 2%;  
 	  
 	}
 
 h1  { margin: 25px 0;  text-transform: uppercase; letter-spacing: 3px; }
 
-#quiz input {
-    horizontal-align: middle;
-}
+/*#quiz input {
+    /*horizontal-align: middle;
+}*/
 
-div.moneyCount{
-	 align-item: center; 
-
+.moneyCount{
+	 align-items: center; 
+   float: right;
 	 display: inline-block;    
-     padding: 2%;  
+    padding: 2%;  
+   border: 5px solid green;
 }
 
 
@@ -109,12 +114,13 @@ div.moneyCount{
 }
 
 .highlight{
-	 background-color:#50C878;`
+	 background-color:#50C878;
 	
 }
 
 td.two{
-	color: #05386B;
+	/*color: #05386B;*/
+  color: #05386B;
 	
 }
 li{
