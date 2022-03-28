@@ -101,9 +101,9 @@ h2.start {
 #customers th {
   padding-top: 12px;
   padding-bottom: 12px;
-   text-align: center;
+  text-align: left;
   background-color: #FFFFFF;
-  color: #777 ;
+  color: white;
 }
 
 .directions{
